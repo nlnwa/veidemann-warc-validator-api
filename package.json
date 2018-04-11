@@ -1,0 +1,26 @@
+{
+  "name": "veidemann-warc-validator-api",
+  "version": "1.0.0alpha1",
+  "license": "Apache-2.0",
+  "description": "WARC validator API",
+  "main": "index.js",
+  "repository": "https://github.com/nlnwa/veidemann-warc-validator-api",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "koa": "^2.5.0",
+    "koa-json-body": "^5.3.0",
+    "koa-json-error": "^3.1.2",
+    "koa-route": "^3.2.0",
+    "rethinkdbdash": "^2.3.31"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-es2015": "^1.1.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
