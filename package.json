@@ -1,6 +1,6 @@
 {
   "name": "veidemann-warc-validator-api",
-  "version": "1.0.0alpha1",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "description": "WARC validator API",
   "main": "index.js",
