@@ -1,15 +1,15 @@
 {
-  "name": "veidemann-warc-validator-api",
+  "name": "veidemann-warcvalidator-api",
   "version": "0.1.0",
   "license": "Apache-2.0",
   "description": "WARC validator API",
   "main": "index.js",
-  "repository": "https://github.com/nlnwa/veidemann-warc-validator-api",
+  "repository": "https://github.com/nlnwa/veidemann-warcvalidator-api",
   "private": true,
   "scripts": {
     "start": "node .",
     "lint": "eslint .",
-    "build:docker": "docker build -t norsknettarkiv/veidemann-warc-validator-api:latest ."
+    "build:docker": "docker build -t norsknettarkiv/veidemann-warcvalidator-api:latest ."
   },
   "dependencies": {
     "@koa/cors": "^2.2.1",
